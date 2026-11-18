@@ -38,7 +38,7 @@ services:
       ARTEX_INTENT_BUDGET_TOKENS: ${ARTEX_INTENT_BUDGET_TOKENS:-}
       ARTEX_UPDATE_CHECK: ${ARTEX_UPDATE_CHECK:-}
     ports:
-      - "100.79.23.29:8787:8787"
+      - "100.79.23.29:8790:8787"
     volumes:
       - artex-data:/app/data
       - artex-keys:/app/keys
